@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NextflowCap</string>
+    <string name="title_activity_main">NextflowCap</string>
+    <string name="package_name">nextflow.ionic.captest</string>
+    <string name="custom_url_scheme">nextflow.ionic.captest</string>
+</resources>

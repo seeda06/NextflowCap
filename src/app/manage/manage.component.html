@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title class="font-serif"></ion-title>
+      <ion-icon name="arrow-back-outline"></ion-icon>เเก้ไขตารางเดินรถ
+      
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="bg-orange-100 min-h-full py-4 px-4">
+    <label for="exampleFormControlTextarea1 " class="font-serif"
+      >รายละเอียดคนขับ</label
+    >
+    <table class="border-separate border border-slate-400 bg-zinc-50">
+      <thead>
+        <tr>
+          <th class="border border-slate-300 w-48">ชื่อ-สกุล</th>
+          <th class="border border-slate-300 w-24">ทะเบียนรถ</th>
+          <th class="border border-slate-300 w-24">วันที่</th>
+        </tr>
+      </thead>
+      <tbody class="text-sm">
+        <tr>
+          <td class="border border-slate-300">1</td>
+          <td class="border border-slate-300">2</td>
+          <td class="border border-slate-300">3</td>
+        </tr>
+
+        <tr>
+          <td class="border border-slate-300">1</td>
+          <td class="border border-slate-300">2</td>
+          <td class="border border-slate-300">3</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-300">1</td>
+          <td class="border border-slate-300">2</td>
+          <td class="border border-slate-300">3</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="flex justify-end p-2">
+
+      <ion-button class="btn btn-primary" ((click)="openModal()")>
+        Launch demo modal
+      </ion-button>
+            <ion-button size="small" color="danger">ลบ</ion-button>
+    </div>
+    <label for="exampleFormControlTextarea1 " class="font-serif flex mt-4"
+      >เวลาออกรถ</label
+    >
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle></ion-card-subtitle>
+        <ion-card-title></ion-card-title>
+      </ion-card-header>
+    </ion-card>
+    <div class="flex justify-end p-2">
+      <ion-button size="small" color="warning">เเก้ไข</ion-button>
+      <ion-button size="small" color="danger">ลบ</ion-button>
+    </div>
+  </div>
+  </ion-content>
+  

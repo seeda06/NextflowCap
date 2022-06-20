@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title >หน้าเเรก</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+ 
+  <div class="flex flex-wrap  justify-items-center gap-2 ">
+    
+      <div class="flex   p-3 flex-auto  " *ngFor="let item of data">
+        <div class="w-full rounded-2xl shadow bg-green-200 pb-3 pt-3">
+          <button class="button "></button>
+          <div class="flex justify-center">
+             <ion-icon item-center class="sizeicon" [name]="item.icon" ></ion-icon>
+          </div>
+           
+          <h1 class=" font-medium rounded-md text-xs text-black  py-2 px-2 flex justify-center h-10 ">{{item.subject}}</h1>
+        
+      </div>
+      </div>
+         </div>
+         <div class="flex justify-end p-5">
+         <ion-button color="danger" class="mt-32 "><ion-icon name="power-outline" class="p-1"></ion-icon><a href="#" class="nav-link"> ออกจากระบบ</a></ion-button>
+        </div>
+</ion-content>

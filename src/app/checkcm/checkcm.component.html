@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>
+      <ion-icon name="arrow-back-outline"></ion-icon>ดูข้อเสนอเเนะ</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen>
+  <div class="bg-orange-100 min-h-full py-12 px-4">
+    <div *ngFor="let item of data;let index ">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle>ความคิดเห็นที่{{ item.subject + index }}</ion-card-subtitle>
+          <ion-card-title>{{ item.comment }}</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

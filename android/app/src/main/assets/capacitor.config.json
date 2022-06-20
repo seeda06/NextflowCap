@@ -1,0 +1,6 @@
+{
+	"appId": "nextflow.ionic.captest",
+	"appName": "NextflowCap",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

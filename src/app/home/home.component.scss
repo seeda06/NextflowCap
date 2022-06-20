@@ -1,0 +1,27 @@
+:root {
+    --ion-color-testbg: #2a5133;
+    --ion-color-testbg-rgb: 105, 187, 123;
+    --ion-color-testbg-contrast: #ffffff;
+    --ion-color-testbg-contrast-rgb: 255, 255, 255;
+    --ion-color-testbg-shade: #5ca56c;
+    --ion-color-testbg-tint: #78c288;
+  }
+  page-home {
+ 
+    ion-icon {
+      font-size: 64px;
+      color: blue;
+    }
+ 
+ 
+}
+.btnlogout{
+  cursor: pointer;
+}
+.btnlogout:hover{
+  color: #2a5133;
+}
+
+.sizeicon{
+  font-size: 35px;
+}
